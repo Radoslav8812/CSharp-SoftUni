@@ -96,6 +96,14 @@ namespace CarRacing.Models.Racers
         {
             car.Drive();
         }
+
+        public override string ToString()
+        {
+            return $"{GetType().Name}: {Username}" + Environment.NewLine +
+            $"--Driving behavior: {RacingBehavior}" + Environment.NewLine +
+            $"--Driving experience: {DrivingExperience}" + Environment.NewLine +
+            $"--Car: {Car.Make} {Car.Model} ({Car.VIN})";
+        }
     }
 }
 

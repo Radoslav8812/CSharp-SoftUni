@@ -12,7 +12,7 @@ namespace CarRacing.Models.Cars
         private double fuelAvailable;
         private double fuelConsumptionPerRace;
 
-		public Car(string make, string model, string vin, int horsePower, double fuelAvailable, double fuelConsumptionPerRace)
+		protected Car(string make, string model, string vin, int horsePower, double fuelAvailable, double fuelConsumptionPerRace)
 		{
             Make = make;
             Model = model;
@@ -62,7 +62,7 @@ namespace CarRacing.Models.Cars
             }
             private set
             {
-                if (vin.Length != 17)
+                if (value.Length != 17)
                 {
                     throw new ArgumentException("Car VIN must be exactly 17 characters long.");
                 }

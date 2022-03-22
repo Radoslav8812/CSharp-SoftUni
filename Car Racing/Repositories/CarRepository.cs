@@ -23,39 +23,41 @@ namespace CarRacing.Repositories
             {
                 throw new ArgumentException("Cannot add null in Car Repository");
             }
-
-            cars.Add(model);
+            else
+            {
+                cars.Add(model);
+            }        
         }
 
         public ICar FindBy(string property)
         {
-            var car = cars.FirstOrDefault(x => x.VIN == property);
+            //var car = cars.FirstOrDefault(x => x.VIN == property);
 
-            if (cars.Contains(car))
-            {
-                return car;
-            }
-            else
-            {
-                return null;
-            }
+            //if (cars.Contains(car))
+            //{
+            //    return car;
+            //}
+            //else
+            //{
+            //    return null;
+            //}
 
-            //return cars.FirstOrDefault(x => x.VIN == property);
+            return cars.FirstOrDefault(x => x.VIN == property);
         }
 
         public bool Remove(ICar model)
         {
-            if (cars.Contains(model))
-            {
-                cars.Remove(model);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            //if (cars.Contains(model))
+            //{
+            //    cars.Remove(model);
+            //    return true;
+            //}
+            //else
+            //{
+            //    return false;
+            //}
 
-            // return cars.Remove(model);
+            return cars.Remove(model);
         }
     }
 }
