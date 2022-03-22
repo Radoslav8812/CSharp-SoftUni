@@ -1,0 +1,38 @@
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.deps.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.deps.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/C# PROJECTS/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/bin/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/obj/Debug/netcoreapp3.1/Gym.genruntimeconfig.cache

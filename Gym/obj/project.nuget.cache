@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cl5w+A58ZG011i6LLPWCZhQVnR9VTGfGAScTEq/yAg1xaaRJDzTH1acTXfE3WHb/m7p9cCYr2H+SG2DZ+KKj0A==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/FINAL EXAM OOP/Structure/Skeleton/Gym/Gym.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
