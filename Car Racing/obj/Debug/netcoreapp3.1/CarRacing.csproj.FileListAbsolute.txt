@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing.deps.json
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing.dll
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/bin/Debug/netcoreapp3.1/CarRacing.pdb
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.dll
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.pdb
+/Users/radoslavbogdanov/Downloads/01. Structure_Skeleton/CarRacing/obj/Debug/netcoreapp3.1/CarRacing.genruntimeconfig.cache
