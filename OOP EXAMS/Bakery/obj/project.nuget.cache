@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AwqbzPFFRHwL1jpRJI/80zorqZGN548pWUI93rcPZy2xyT6ALvKO4Y1a9UjhfSdHN95w4lrlmd9ZdrCAvA/6Hw==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/Bakery.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -3,32 +3,32 @@ using Bakery.Models.BakedFoods.Contracts;
 
 namespace Bakery.Models.BakedFoods
 {
-	public abstract class BakedFood : IBakedFood
-	{
-		private string name;
-		private int portion;
-		private decimal price;
+    public abstract class BakedFood : IBakedFood
+    {
+        private string name;
+        private int portion;
+        private decimal price;
 
-		public BakedFood(string name, int portion, decimal price)
-		{
-			Name = name;
-			Portion = portion;
-			Price = price;
-		}
+        protected BakedFood(string name, int portion, decimal price)
+        {
+            Name = name;
+            Portion = portion;
+            Price = price;
+        }
 
         public string Name
         {
-			get
+            get
             {
-				return name;
+                return name;
             }
-			private set
+            private set
             {
-				if (string.IsNullOrEmpty(value))
+                if (string.IsNullOrWhiteSpace(value))
                 {
-					throw new ArgumentException("Name cannot be null or white space!");
+                    throw new ArgumentException("Name cannot be null or white space!");
                 }
-				name = value;
+                name = value;
             }
         }
 
@@ -38,7 +38,7 @@ namespace Bakery.Models.BakedFoods
             {
                 return portion;
             }
-            private set
+            protected set
             {
                 if (value <= 0)
                 {
@@ -66,8 +66,7 @@ namespace Bakery.Models.BakedFoods
 
         public override string ToString()
         {
-            return $"{this.Name}: {this.Portion}g - {this.Price:f2}";
+            return $"{Name}: {Portion}g - {Price:f2}";
         }
     }
 }
-

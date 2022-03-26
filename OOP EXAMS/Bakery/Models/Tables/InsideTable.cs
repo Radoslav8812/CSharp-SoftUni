@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Bakery.Models.Tables
+namespace Bakery.Models.Tables.Contracts
 {
     public class InsideTable : Table
     {
@@ -8,4 +8,3 @@ namespace Bakery.Models.Tables
         }
     }
 }
-

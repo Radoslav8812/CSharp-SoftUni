@@ -3,20 +3,21 @@ using Bakery.Models.Drinks.Contracts;
 
 namespace Bakery.Models.Drinks
 {
-	public abstract class Drink : IDrink
-	{
+    public abstract class Drink : IDrink
+    {
+
         private string name;
         private int portion;
         private decimal price;
         private string brand;
 
-		public Drink(string name, int portion, decimal price, string brand)
-		{
+        protected Drink(string name, int portion, decimal price, string brand)
+        {
             Name = name;
             Portion = portion;
             Price = price;
             Brand = brand;
-		}
+        }
 
         public string Name
         {
@@ -84,8 +85,7 @@ namespace Bakery.Models.Drinks
 
         public override string ToString()
         {
-            return $"{this.Name} {this.Brand} - {this.Portion}ml - {this.Price:f2}lv";
+            return $"{Name} {Brand} - {Portion}ml - {Price:f2}lv";
         }
     }
 }
-

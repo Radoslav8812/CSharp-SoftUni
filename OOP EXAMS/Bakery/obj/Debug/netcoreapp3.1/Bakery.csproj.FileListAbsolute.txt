@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/bin/Debug/netcoreapp3.1/Bakery.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/01. Structure_Problem_Skeleton/Bakery/obj/Debug/netcoreapp3.1/Bakery.genruntimeconfig.cache
