@@ -101,7 +101,7 @@ namespace Gym.Models.Gyms
             builder.AppendLine($"{Name} is a {GetType().Name}");
             builder.AppendLine($"Athletes: {(Athletes.Any() ? string.Join(", ", Athletes.Select(x => x.FullName)) : "No athletes")}");
             builder.AppendLine($"Equipment total count: {Equipment.Count}");
-            builder.AppendLine($"Equipment total weight: {Equipment.Sum(x => x.Weight)} grams");
+            builder.AppendLine($"Equipment total weight: {Equipment.Sum(x => x.Weight):f2} grams");
 
             return builder.ToString().TrimEnd();
         }

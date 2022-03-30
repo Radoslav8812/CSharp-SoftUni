@@ -15,7 +15,7 @@ namespace Gym.Core
     public class Controller : IController
     {
         private EquipmentRepository equipmentRepository;
-        private List<IGym> gyms;
+        private ICollection<IGym> gyms;
 
         public Controller()
         {
@@ -25,37 +25,33 @@ namespace Gym.Core
 
         public string AddAthlete(string gymName, string athleteType, string athleteName, string motivation, int numberOfMedals)
         {
-            IAthlete athlete;
-            
+            IAthlete currentAthlete;
+            var currentGym = gyms.FirstOrDefault(x => x.Name == gymName);
+
             if (athleteType == "Boxer")
             {
-                athlete = new Boxer(athleteName, motivation, numberOfMedals);
+                currentAthlete = new Boxer(athleteName, motivation, numberOfMedals);
+
+                if (athleteType == "Boxer" && currentGym.GetType().Name != "BoxingGym")
+                {
+                    return $"The gym is not appropriate.";
+                }
             }
             else  if (athleteType == "Weightlifter")
             {
-                athlete = new Weightlifter(athleteName, motivation, numberOfMedals);
+                currentAthlete = new Weightlifter(athleteName, motivation, numberOfMedals);
+
+                if (athleteType == "Weightlifter" && currentGym.GetType().Name != "WeightliftingGym")
+                {
+                    return $"The gym is not appropriate.";
+                }
             }
             else
             {
                 throw new InvalidOperationException("Invalid athlete type.");
             }
 
-            var gymType = gyms.FirstOrDefault(x => x.GetType().Name == gymName).ToString();
-            var currentGym = gyms.FirstOrDefault(x => x.Name == gymName);
-
-            if (gymType == "BoxingGym")
-            {
-                currentGym.AddAthlete(athlete);
-            }
-            else if (gymType == "WeightliftingGym")
-            {
-                currentGym.AddAthlete(athlete);
-            }
-            else
-            {
-                return "The gym is not appropriate.";
-            }
-
+            currentGym.AddAthlete(currentAthlete);
             return $"Successfully added {athleteType} to {gymName}.";
         }
 
@@ -106,7 +102,7 @@ namespace Gym.Core
         public string InsertEquipment(string gymName, string equipmentType)
         {
 
-            var currentEquipment = equipmentRepository.Models.FirstOrDefault(x => x.GetType().Name == equipmentType);
+            var currentEquipment = equipmentRepository.FindByType(equipmentType);
 
             if (currentEquipment == null)
             {
@@ -133,7 +129,7 @@ namespace Gym.Core
                 builder.AppendLine(gym.GymInfo());
             }
 
-            return builder.ToString().TrimEnd();
+            return builder.ToString().Trim();
         }
 
         public string TrainAthletes(string gymName)
