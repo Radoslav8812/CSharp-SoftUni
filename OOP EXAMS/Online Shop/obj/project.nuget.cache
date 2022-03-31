@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mesIB/G3Zm1CY8RMxvCxp2G0GMm2z4SfWHMV6cbAWAwBXiOT5/C6v5h2lGORVDvSofBG5x3c4D5nRNnq8PKI2Q==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/OnlineShop.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

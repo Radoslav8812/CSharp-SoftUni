@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/bin/Debug/netcoreapp3.1/OnlineShop.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/OnlineShop-Skeleton/OnlineShop/obj/Debug/netcoreapp3.1/OnlineShop.genruntimeconfig.cache
