@@ -10,6 +10,7 @@
 /Users/radoslavbogdanov/Downloads/C# PROJECTS/Easter Races/Exam-Skeleton/EasterRaces/obj/Debug/netcoreapp3.1/EasterRaces.dll
 /Users/radoslavbogdanov/Downloads/C# PROJECTS/Easter Races/Exam-Skeleton/EasterRaces/obj/Debug/netcoreapp3.1/EasterRaces.pdb
 /Users/radoslavbogdanov/Downloads/C# PROJECTS/Easter Races/Exam-Skeleton/EasterRaces/obj/Debug/netcoreapp3.1/EasterRaces.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Easter Races/Exam-Skeleton/EasterRaces/bin/Debug/netcoreapp3.1/EasterRaces
 /Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Easter Races/Exam-Skeleton/EasterRaces/bin/Debug/netcoreapp3.1/EasterRaces.deps.json
 /Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Easter Races/Exam-Skeleton/EasterRaces/bin/Debug/netcoreapp3.1/EasterRaces.runtimeconfig.json
 /Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Easter Races/Exam-Skeleton/EasterRaces/bin/Debug/netcoreapp3.1/EasterRaces.runtimeconfig.dev.json

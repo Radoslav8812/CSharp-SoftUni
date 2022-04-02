@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DY5gtdS4t5ZVeB3ye1DFnMBbCP+5OsszHjiFYI76TsxoJ6Dt4wjxEd7WldfBiosxfgcZgDkzhFuhTx8XoqgQ9Q==",
+  "dgSpecHash": "9CY6axscR85b3HNAQtA/OD7nB8l/EW9irLIGrgKJJr1qHmtH+7ccYGNeipfmb3hd3s4rd/Vand5E418+MNGbzw==",
   "success": true,
   "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Easter Races/Exam-Skeleton/EasterRaces/EasterRaces.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
