@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/bin/Debug/netcoreapp3.0/AquaShop.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/AquaShop/obj/Debug/netcoreapp3.0/AquaShop.genruntimeconfig.cache
