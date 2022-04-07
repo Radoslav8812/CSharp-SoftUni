@@ -87,14 +87,19 @@ namespace AquaShop.Models.Aquariums
 
         public string GetInfo()
         {
-            StringBuilder sb = new StringBuilder();
+            //StringBuilder sb = new StringBuilder();
+            //
+            //sb.AppendLine($"{this.Name} ({this.GetType().Name}):");
+            //sb.AppendLine($"Fish: {(this.Fish.Any() ? string.Join(", ", this.Fish.Select(x => x.Name)) : "none")}");
+            //sb.AppendLine($"Decorations: {this.Decorations.Count}");
+            //sb.AppendLine($"Comfort: {this.Comfort}");
+            //
+            //return sb.ToString().TrimEnd();
 
-            sb.AppendLine($"{this.Name} ({this.GetType().Name}):");
-            sb.AppendLine($"Fish: {(this.Fish.Any() ? string.Join(", ", this.Fish.Select(x => x.Name)) : "none")}");
-            sb.AppendLine($"Decorations: {this.Decorations.Count}");
-            sb.AppendLine($"Comfort: {this.Comfort}");
-
-            return sb.ToString().TrimEnd();
+            return $"{this.Name} ({this.GetType().Name}):" + Environment.NewLine +
+                $"Fish: {(this.Fish.Any() ? string.Join(", ", this.Fish.Select(x => x.Name)) : "none")}" + Environment.NewLine +
+                $"Decorations: {this.Decorations.Count}" + Environment.NewLine +
+                $"Comfort: {this.Comfort}";
         }
 
         public bool RemoveFish(IFish fish)
