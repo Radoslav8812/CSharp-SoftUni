@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o0oURMoi5TGB9IO/SBq1rmI+D/AlBx82W6HwD6idYaWGGQRBWfbZ6Z7+WqslTtW1GPaitKd2+Cl+Z9viFLR8lQ==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Unit Test/BookSkeleton/Book/Book.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
