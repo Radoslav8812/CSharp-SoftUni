@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter.deps.json
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter.dll
+/Users/radoslavbogdanov/Downloads/Easter/Easter/bin/Debug/netcoreapp3.1/Easter.pdb
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.dll
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.pdb
+/Users/radoslavbogdanov/Downloads/Easter/Easter/obj/Debug/netcoreapp3.1/Easter.genruntimeconfig.cache
