@@ -31,7 +31,7 @@ namespace Formula1.Models
             {
                 if (string.IsNullOrWhiteSpace(value) || value.Length < 5)
                 {
-                    throw new ArgumentException($"Invalid race name: { value }.");
+                    throw new ArgumentException($"Invalid race name: {value}.");
                 }
                 raceName = value;
             }
@@ -47,7 +47,7 @@ namespace Formula1.Models
             {
                 if (value < 1)
                 {
-                    throw new ArgumentException($"Invalid lap numbers: { value }.");
+                    throw new ArgumentException($"Invalid lap numbers: {value}.");
                 }
                 numberOfLaps = value;
             }
@@ -83,10 +83,10 @@ namespace Formula1.Models
             var builder = new StringBuilder();
 
             builder.AppendLine($"The { RaceName } race has:");
-            builder.AppendLine($"Participants: {pilots.Count(x => x.CanRace == true)}");
+            builder.AppendLine($"Participants: {Pilots.Count(x => x.CanRace == true)}");
             builder.AppendLine($"Number of laps: { NumberOfLaps }");
-            var place = TookPlace == false ? "Yes" : "No";
-            builder.AppendLine($"{place}");
+            var place = TookPlace == true ? "Yes" : "No";
+            builder.AppendLine($"TookPlace: {place}");
 
             return builder.ToString().TrimEnd();
         }

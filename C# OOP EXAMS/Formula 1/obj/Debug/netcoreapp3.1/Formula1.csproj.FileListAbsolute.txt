@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1.deps.json
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1.dll
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/bin/Debug/netcoreapp3.1/Formula1.pdb
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.dll
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.pdb
+/Users/radoslavbogdanov/Downloads/Formula1/Formula1/obj/Debug/netcoreapp3.1/Formula1.genruntimeconfig.cache

@@ -51,9 +51,9 @@ namespace Formula1.Core
                 throw new NullReferenceException($"Race {raceName} does not exist.");
             }
 
-            if (pilot == null || !pilot.CanRace || pilotRepository.Models.Contains(pilot))
+            if (pilot == null || !pilot.CanRace || race.Pilots.Contains(pilot))
             {
-                throw new InvalidOperationException($"Can not add pilot {pilotFullName}");
+                throw new InvalidOperationException($"Can not add pilot {pilotFullName} to the race.");
             }
 
             race.AddPilot(pilot);
@@ -129,9 +129,9 @@ namespace Formula1.Core
         {
             var builder = new StringBuilder();
 
-            foreach (var race in raceRepository.Models)
+            foreach (var race in raceRepository.Models.Where(x => x.TookPlace == true))
             {
-                builder.AppendLine(race.RaceInfo());
+                builder.AppendLine(race.RaceInfo().TrimEnd());
             }
 
             return builder.ToString().TrimEnd();
@@ -148,7 +148,7 @@ namespace Formula1.Core
 
             if (race.Pilots.Count < 3)
             {
-                throw new InvalidOperationException($"Race {raceName} cannot start with less than 3 participants.");
+                throw new InvalidOperationException($"Race {raceName} cannot start with less than three participants.");
             }
 
             if (race.TookPlace == true)
@@ -162,14 +162,15 @@ namespace Formula1.Core
             var second = topDrivers[1];
             var third = topDrivers[2];
 
+            first.WinRace();
+
             race.TookPlace = true;
-            topDrivers.ForEach(x => x.WinRace());
 
             var builder = new StringBuilder();
 
-            builder.AppendLine($"Driver {first.FullName} wins {race.RaceName} race.");
-            builder.AppendLine($"Driver {second.FullName} is second in {race.RaceName} race.");
-            builder.AppendLine($"Driver {third.FullName} is third in {race.RaceName} race.");
+            builder.AppendLine($"Pilot {first.FullName } wins the {race.RaceName } race.");
+            builder.AppendLine($"Pilot {second.FullName} is second in {race.RaceName} race.");
+            builder.AppendLine($"Pilot {third.FullName} is third in {race.RaceName} race.");
 
             return builder.ToString().TrimEnd();
         }

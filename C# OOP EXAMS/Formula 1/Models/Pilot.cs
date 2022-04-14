@@ -7,12 +7,14 @@ namespace Formula1.Models
 	{
         private string fullName;
         private bool canRace;
+        private int numberOfWins;
         IFormulaOneCar car;
 
 		public Pilot(string fullName)
 		{
             FullName = fullName;
             canRace = false;
+            NumberOfWins = 0;
 		}
 
         public string FullName
@@ -41,14 +43,23 @@ namespace Formula1.Models
             {
                 if (value == null)
                 {
-                    throw new ArgumentException("Pilot car can not be null.");
+                    throw new NullReferenceException("Pilot car can not be null.");
                 }
                 car = value;
             }
         }
 
-        public int NumberOfWins { get; private set; }
-
+        public int NumberOfWins
+        {
+            get
+            {
+                return numberOfWins;
+            }
+            private set
+            {
+                numberOfWins = value;
+            }
+        }
         public bool CanRace
         {
             get
