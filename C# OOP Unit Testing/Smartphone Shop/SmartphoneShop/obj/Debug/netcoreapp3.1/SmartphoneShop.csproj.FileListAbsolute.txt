@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop.deps.json
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop.dll
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/bin/Debug/netcoreapp3.1/SmartphoneShop.pdb
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.dll
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.pdb
+/Users/radoslavbogdanov/Downloads/SmartphoneShop Unit Test/SmartphoneShop/obj/Debug/netcoreapp3.1/SmartphoneShop.genruntimeconfig.cache
