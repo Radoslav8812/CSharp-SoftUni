@@ -1,6 +1,6 @@
-﻿namespace AquaShop.IO.Contracts
+﻿namespace NavalVessels.IO.Contracts
 {
-    public interface IWriter
+    interface IWriter
     {
         void WriteLine(string message);
 

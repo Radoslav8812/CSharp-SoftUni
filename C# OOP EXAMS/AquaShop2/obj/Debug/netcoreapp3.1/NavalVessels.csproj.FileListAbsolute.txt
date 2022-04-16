@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels.deps.json
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels.dll
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/bin/Debug/netcoreapp3.1/NavalVessels.pdb
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.dll
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.pdb
+/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/Debug/netcoreapp3.1/NavalVessels.genruntimeconfig.cache

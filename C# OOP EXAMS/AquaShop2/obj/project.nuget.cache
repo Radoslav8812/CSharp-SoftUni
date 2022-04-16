@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BheD50tqJZlPN0mW47oYaYAJOP0mt3BWRRaMGPP4cWAe/jTuGtB0FlbzCBDNmvuzVaGMo5itj5a1Pv2vF1RQpQ==",
+  "dgSpecHash": "W1wZc02kEHXlpihiFp4VFT8bgsbv70rkZ4GOT57SwZp1I6Vgaji36IRx026Vbaxf4UXp2pa2hfdTBQr9Wc2bBg==",
   "success": true,
-  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/01. Structure_Skeleton/AquaShop/AquaShop.csproj",
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/NavalVessels.csproj",
   "expectedPackageFiles": [
     "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.23/microsoft.netcore.app.host.osx-x64.3.1.23.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.24/microsoft.netcore.app.host.osx-x64.3.1.24.nupkg.sha512",
     "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []

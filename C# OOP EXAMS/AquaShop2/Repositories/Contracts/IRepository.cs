@@ -1,4 +1,4 @@
-﻿namespace AquaShop.Repositories.Contracts
+﻿namespace NavalVessels.Repositories.Contracts
 {
     using System.Collections.Generic;
 
@@ -10,6 +10,6 @@
 
         bool Remove(T model);
 
-        T FindByType(string type);
+        T FindByName(string name);
     }
 }

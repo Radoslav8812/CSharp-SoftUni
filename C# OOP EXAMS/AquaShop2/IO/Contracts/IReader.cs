@@ -1,6 +1,6 @@
-﻿namespace AquaShop.IO.Contracts
+﻿namespace NavalVessels.IO.Contracts
 {
-    public interface IReader
+    interface IReader
     {
         string ReadLine();
     }

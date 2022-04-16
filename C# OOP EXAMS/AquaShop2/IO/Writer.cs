@@ -1,8 +1,8 @@
-﻿namespace AquaShop.IO
+﻿namespace NavalVessels.IO
 {
     using System;
 
-    using AquaShop.IO.Contracts;
+    using Contracts;
 
     public class Writer : IWriter
     {

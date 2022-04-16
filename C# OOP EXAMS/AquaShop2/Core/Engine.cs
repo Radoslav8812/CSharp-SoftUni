@@ -1,85 +1,96 @@
-﻿namespace AquaShop.Core
+﻿namespace NavalVessels.Core
 {
     using System;
+    using System.Linq;
 
-    using AquaShop.IO;
-    using AquaShop.IO.Contracts;
-    using AquaShop.Core.Contracts;
+    using Contracts;
+    using IO;
+    using IO.Contracts;
 
     public class Engine : IEngine
     {
-        private IWriter writer;
-        private IReader reader;
-        private IController controller;
+        private readonly IWriter writer;
+        private readonly IReader reader;
+        private readonly IController controller;
 
         public Engine()
         {
             this.writer = new Writer();
             this.reader = new Reader();
+
             this.controller = new Controller();
         }
-
         public void Run()
         {
             while (true)
             {
-                string[] input = reader.ReadLine().Split();
-                if (input[0] == "Exit")
+                var input = reader.ReadLine().Split();
+                if (input[0] == "Quit")
                 {
                     Environment.Exit(0);
                 }
                 try
                 {
-                string result = string.Empty;
+                    if (input[0] == "HireCaptain")
+                    {
+                        string captainFullName = input[1];
+                        string result = this.controller.HireCaptain(captainFullName);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "ProduceVessel")
+                    {
+                        string name = input[1];
+                        string vesselType = input[2];
+                        double mainWeaponCaliber = double.Parse(input[3]);
+                        double speed = double.Parse(input[4]);
 
-                if (input[0] == "AddAquarium")
-                {
-                    string aquariumType = input[1];
-                    string aquariumName = input[2];
+                        string result = this.controller.ProduceVessel(name, vesselType, mainWeaponCaliber, speed);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "AssignCaptain")
+                    {
+                        string selectedCaptainName = input[1];
+                        string selectedVesselName = input[2];
 
-                    result = controller.AddAquarium(aquariumType, aquariumName);
-                }
-                else if (input[0] == "AddDecoration")
-                {
-                    string decorationType = input[1];
+                        string result = this.controller.AssignCaptain(selectedCaptainName, selectedVesselName);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "CaptainReport")
+                    {
+                        string selectedCaptainName = input[1];
 
-                    result = controller.AddDecoration(decorationType);
-                }
-                else if (input[0] == "InsertDecoration")
-                {
-                    string aquariumName = input[1];
-                    string decorationType = input[2];
+                        string result = this.controller.CaptainReport(selectedCaptainName);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "VesselReport")
+                    {
+                        string selectedVesselName = input[1];
 
-                    result = controller.InsertDecoration(aquariumName, decorationType);
-                }
-                else if (input[0] == "AddFish")
-                {
-                    string aquariumName = input[1];
-                    string fishType = input[2];
-                    string fishName = input[3];
-                    string fishSpecies = input[4];
-                    decimal price = decimal.Parse(input[5]);
+                        string result = this.controller.VesselReport(selectedVesselName);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "ToggleSpecialMode")
+                    {
+                        string vessel = input[1];
 
-                    result = controller.AddFish(aquariumName, fishType, fishName, fishSpecies, price);
-                }
-                else if (input[0] == "FeedFish")
-                {
-                    string aquariumName = input[1];
+                        string result = this.controller.ToggleSpecialMode(vessel);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "AttackVessels")
+                    {
+                        string attackingVesselName = input[1];
+                        string defendingVesselName = input[2];
 
-                    result = controller.FeedFish(aquariumName);
-                }
-                else if (input[0] == "CalculateValue")
-                {
-                    string aquariumName = input[1];
+                        string result = this.controller.AttackVessels(attackingVesselName, defendingVesselName);
+                        this.writer.WriteLine(result);
+                    }
+                    else if (input[0] == "ServiceVessel")
+                    {
+                        string vessel = input[1];
 
-                    result = controller.CalculateValue(aquariumName);
-                }
-                else if (input[0] == "Report")
-                {
-                    result = controller.Report();
-                }
-
-                writer.WriteLine(result);
+                        string result = this.controller.ServiceVessel(vessel);
+                        this.writer.WriteLine(result);
+                    }
                 }
                 catch (Exception ex)
                 {

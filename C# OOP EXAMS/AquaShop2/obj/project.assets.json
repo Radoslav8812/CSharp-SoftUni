@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/01. Structure_Skeleton/AquaShop/AquaShop.csproj",
-      "projectName": "AquaShop",
-      "projectPath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/01. Structure_Skeleton/AquaShop/AquaShop.csproj",
+      "projectUniqueName": "/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/NavalVessels.csproj",
+      "projectName": "NavalVessels",
+      "projectPath": "/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/NavalVessels.csproj",
       "packagesPath": "/Users/radoslavbogdanov/.nuget/packages/",
-      "outputPath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Aqua Shop/01. Structure_Skeleton/AquaShop/obj/",
+      "outputPath": "/Users/radoslavbogdanov/Downloads/NavalVessels-Skeleton/NavalVessels/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/radoslavbogdanov/.nuget/NuGet/NuGet.Config"
@@ -60,7 +60,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[3.1.23, 3.1.23]"
+            "version": "[3.1.24, 3.1.24]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

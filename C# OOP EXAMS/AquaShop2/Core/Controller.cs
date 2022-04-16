@@ -1,146 +1,163 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using AquaShop.Core.Contracts;
-using AquaShop.Models.Aquariums;
-using AquaShop.Models.Aquariums.Contracts;
-using AquaShop.Models.Decorations;
-using AquaShop.Models.Decorations.Contracts;
-using AquaShop.Models.Fish;
-using AquaShop.Models.Fish.Contracts;
-using AquaShop.Repositories;
-using AquaShop.Repositories.Contracts;
+using NavalVessels.Core.Contracts;
+using NavalVessels.Models;
+using NavalVessels.Models.Contracts;
+using NavalVessels.Repositories;
+using NavalVessels.Utilities.Messages;
 
-namespace AquaShop.Core
+namespace NavalVessels.Core
 {
-    public class Controller : IController
-    {
-        private IRepository<IDecoration> decorationRepository;
-        private ICollection<IAquarium> aquariums;
+	public class Controller : IController
+	{
+        private VesselRepository vessels;
+        private List<ICaptain> captains;
 
         public Controller()
         {
-            decorationRepository = new DecorationRepository();
-            aquariums = new List<IAquarium>();
+            vessels = new VesselRepository();
+            captains = new List<ICaptain>();
         }
 
-        public string AddAquarium(string aquariumType, string aquariumName)
+        public string AssignCaptain(string selectedCaptainName, string selectedVesselName)
         {
-            IAquarium aquarium;
-
-            if (aquariumType == nameof(FreshwaterAquarium))
+            var currentCaptain = captains.FirstOrDefault(c => c.FullName == selectedCaptainName);
+            if (currentCaptain == null)
             {
-                aquarium = new FreshwaterAquarium(aquariumName);
+                return string.Format(OutputMessages.CaptainNotFound, selectedCaptainName);
             }
-            else if (aquariumType == nameof(SaltwaterAquarium))
+
+            var currentVessel = vessels.Models.FirstOrDefault(v => v.Name == selectedVesselName);
+            if (currentVessel == null)
             {
-                aquarium = new SaltwaterAquarium(aquariumName);
+                return string.Format(OutputMessages.VesselNotFound, selectedVesselName);
+            }
+
+            if (currentVessel.Captain != null)
+            {
+                return string.Format(OutputMessages.VesselOccupied, selectedVesselName);
+            }
+
+            currentCaptain.AddVessel(currentVessel);
+            currentVessel.Captain = currentCaptain;
+            return string.Format(OutputMessages.SuccessfullyAssignCaptain, selectedCaptainName, selectedVesselName);
+        }
+
+        public string AttackVessels(string attackingVesselName, string defendingVesselName)
+        {
+            var attackingVessel = vessels.FindByName(attackingVesselName);
+            if (attackingVessel == null)
+            {
+                return string.Format(OutputMessages.VesselNotFound, attackingVesselName);
+            }
+
+            if (attackingVessel.ArmorThickness == 0)
+            {
+                return string.Format(OutputMessages.VesselNotFound, attackingVesselName);
+            }
+
+            var defendingVessel = vessels.FindByName(defendingVesselName);
+            if (defendingVessel == null)
+            {
+                return string.Format(OutputMessages.VesselNotFound, defendingVesselName);
+            }
+
+            if (defendingVessel.ArmorThickness == 0)
+            {
+                return string.Format(OutputMessages.AttackVesselArmorThicknessZero, defendingVesselName);
+            }
+
+            attackingVessel.Attack(defendingVessel);
+            attackingVessel.Captain.IncreaseCombatExperience();
+            defendingVessel.Captain.IncreaseCombatExperience();
+
+            return string.Format(OutputMessages.SuccessfullyAttackVessel, defendingVesselName, attackingVesselName, defendingVessel.ArmorThickness);
+        }
+
+        public string CaptainReport(string captainFullName)
+        {
+            var currentCaptain = captains.FirstOrDefault(c => c.FullName == captainFullName);
+            return currentCaptain.Report();
+        }
+
+        public string HireCaptain(string fullName)
+        {
+            if (captains.Any(c => c.FullName == fullName))
+            {
+                return string.Format(OutputMessages.CaptainIsAlreadyHired, fullName);
+            }
+
+            ICaptain currentCaptain = new Captain(fullName);
+            captains.Add(currentCaptain);
+            return string.Format(OutputMessages.SuccessfullyAddedCaptain, fullName);
+        }
+
+        public string ProduceVessel(string name, string vesselType, double mainWeaponCaliber, double speed)
+        {
+            IVessel currentVessel;
+            if (vesselType == nameof(Battleship))
+            {
+                currentVessel = new Battleship(name, mainWeaponCaliber, speed);
+            }
+            else if (vesselType == nameof(Submarine))
+            {
+                currentVessel = new Submarine(name, mainWeaponCaliber, speed);
             }
             else
             {
-                throw new InvalidOperationException("Invalid aquarium type.");
+                return OutputMessages.InvalidVesselType;
             }
 
-            aquariums.Add(aquarium);
-            return $"Successfully added {aquariumType}.";
-        }
-
-        public string AddDecoration(string decorationType)
-        {
-            IDecoration decoration;
-
-            if (decorationType == nameof(Ornament))
+            if (vessels.Models.Any(v => v.Name == currentVessel.Name))
             {
-                decoration = new Ornament();
+                return string.Format(OutputMessages.VesselIsAlreadyManufactured, vesselType, name);
             }
-            else if (decorationType == nameof(Plant))
+
+            vessels.Add(currentVessel);
+            return string.Format(OutputMessages.SuccessfullyCreateVessel, vesselType, name, mainWeaponCaliber, speed);
+        }
+
+        public string ServiceVessel(string vesselName)
+        {
+            var currentVessel = vessels.FindByName(vesselName);
+            if (currentVessel == null)
             {
-                decoration = new Plant();
+                return string.Format(OutputMessages.VesselNotFound, vesselName);
             }
-            else
+
+            currentVessel.RepairVessel();
+            return string.Format(OutputMessages.SuccessfullyRepairVessel, vesselName);
+        }
+
+        public string ToggleSpecialMode(string vesselName)
+        {
+            var vessel = vessels.FindByName(vesselName);
+            if (vessel != null)
             {
-                throw new InvalidOperationException("Invalid decoration type.");
+                if (vessel.GetType().Name == nameof(Battleship))
+                {
+                    Battleship battleship = (Battleship)vessel;
+                    battleship.ToggleSonarMode();
+
+                    return string.Format(OutputMessages.ToggleBattleshipSonarMode, vesselName);
+                }
+                else if (vessel.GetType().Name == nameof(Submarine))
+                {
+                    Submarine submarine = (Submarine)vessel;
+                    submarine.ToggleSubmergeMode();
+
+                    return string.Format(OutputMessages.ToggleSubmarineSubmergeMode, vesselName);
+                }
             }
 
-            decorationRepository.Add(decoration);
-            return $"Successfully added {decorationType}.";
+            return string.Format(OutputMessages.VesselNotFound, vesselName);
         }
 
-        public string AddFish(string aquariumName, string fishType, string fishName, string fishSpecies, decimal price)
+        public string VesselReport(string vesselName)
         {
-            IFish fish;
-            IAquarium aquarium = aquariums.FirstOrDefault(x => x.Name == aquariumName);
-
-           if (fishType == nameof(FreshwaterFish))
-           {
-               fish = new FreshwaterFish(fishName, fishSpecies, price);
-           }
-           else if (fishType == nameof(SaltwaterFish))
-           {
-               fish = new SaltwaterFish(fishName, fishSpecies, price);
-           }
-           else
-           {
-               throw new InvalidOperationException("Invalid fish type.");
-           }
-           
-           if(fish.GetType() == typeof(FreshwaterFish) && aquarium.GetType() == typeof(SaltwaterAquarium))
-           {
-               return "Water not suitable.";
-           }
-           
-           if (fish.GetType() == typeof(SaltwaterFish) && aquarium.GetType() == typeof(FreshwaterAquarium))
-           {
-               return "Water not suitable.";
-           }
-
-            aquarium.AddFish(fish);
-            return $"Successfully added {fishType} to {aquariumName}.";
-        }
-
-        public string CalculateValue(string aquariumName)
-        {
-            IAquarium aquarium = aquariums.FirstOrDefault(x => x.Name == aquariumName);
-            decimal currentValue = aquarium.Fish.Sum(x => x.Price) + aquarium.Decorations.Sum(x => x.Price);
-            
-            return $"The value of Aquarium {aquarium.Name} is {currentValue:f2}.";
-        }
-
-        public string FeedFish(string aquariumName)
-        {
-            var aqurium = aquariums.FirstOrDefault(x => x.Name == aquariumName);
-            aqurium.Feed();
-
-            return $"Fish fed: {aqurium.Fish.Count}";
-        }
-
-        public string InsertDecoration(string aquariumName, string decorationType)
-        {
-            var aquarium = aquariums.FirstOrDefault(x => x.Name == aquariumName);
-            var decoration = decorationRepository.FindByType(decorationType);
-
-            if (decoration == null)
-            {
-                throw new InvalidOperationException($"There isn't a decoration of type {decorationType}.");
-            }
-
-            aquarium.AddDecoration(decoration);
-            decorationRepository.Remove(decoration);
-           
-            return $"Successfully added {decorationType} to {aquariumName}.";
-        }
-
-        public string Report()
-        {
-            var builder = new StringBuilder();
-
-            foreach (var item in aquariums)
-            {
-                builder.AppendLine(item.GetInfo());
-            }
-
-            return builder.ToString().TrimEnd();
+            var currentVessel = vessels.Models.FirstOrDefault(v => v.Name == vesselName);
+            return currentVessel.ToString();
         }
     }
 }

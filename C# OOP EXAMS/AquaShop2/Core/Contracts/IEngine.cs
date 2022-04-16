@@ -1,8 +1,6 @@
-﻿namespace AquaShop.Core.Contracts
+﻿namespace NavalVessels.Core.Contracts
 {
-    using System;
-
-    public interface IEngine
+    interface IEngine
     {
         void Run();
     }
