@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation.deps.json
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation.dll
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/bin/Debug/netcoreapp3.1/SpaceStation.pdb
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.dll
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.pdb
+/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/obj/Debug/netcoreapp3.1/SpaceStation.genruntimeconfig.cache

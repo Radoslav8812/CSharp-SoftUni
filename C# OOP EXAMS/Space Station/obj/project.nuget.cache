@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JEo3BR9cJ0vCVQT8SnEHPp9eXSJmy2yv+GFmYAzLKResY9pg40gj/of4N9fyvQt+xfIH820coYcWXHx8e1valQ==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/Astronauts/SpaceStation/SpaceStation.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.24/microsoft.netcore.app.host.osx-x64.3.1.24.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
