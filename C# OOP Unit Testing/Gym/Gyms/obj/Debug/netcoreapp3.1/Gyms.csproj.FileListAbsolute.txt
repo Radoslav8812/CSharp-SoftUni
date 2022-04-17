@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms.deps.json
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms.dll
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/bin/Debug/netcoreapp3.1/Gyms.pdb
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.dll
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.pdb
+/Users/radoslavbogdanov/Downloads/Gym Unit Test/Gyms/obj/Debug/netcoreapp3.1/Gyms.genruntimeconfig.cache
