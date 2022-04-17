@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vmnOrgEywygzhyF39+9vMDz5GzdMp0AAUG2DIUiAAze2pyk/NNGWWf35kzLUHGl7S3xmvAZ57cshKR1TNGrFJg==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/Robots.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.0.3/microsoft.netcore.app.host.osx-x64.3.0.3.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

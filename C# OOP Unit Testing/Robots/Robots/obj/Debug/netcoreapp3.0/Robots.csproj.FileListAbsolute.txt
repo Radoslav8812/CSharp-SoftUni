@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots.deps.json
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots.dll
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/bin/Debug/netcoreapp3.0/Robots.pdb
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.dll
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.pdb
+/Users/radoslavbogdanov/Downloads/Robots Unit Test/Robots/obj/Debug/netcoreapp3.0/Robots.genruntimeconfig.cache
