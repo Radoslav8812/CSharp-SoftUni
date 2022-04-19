@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Z9AQ4SMGOXX0voaB1SQCWY3mYEkXDV0VF8Rulqjb/UKPxhBDEdnBEwN3JS2ehtlUFNmqBo2yBn5n7r8OwPfvQ==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/Heroes.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.24/microsoft.netcore.app.host.osx-x64.3.1.24.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
