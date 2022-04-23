@@ -1,0 +1,42 @@
+body {
+  background-color: whitesmoke;
+  color: black;
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+ol {
+  padding-bottom: 5px;
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#my-heading {
+  color: black;
+}
+
+#my-text {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+  border-radius: 12px;
+  border: none;
+
+}
+
+button.btn{
+    background-color: chartreuse;
+}
