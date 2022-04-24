@@ -1,0 +1,15 @@
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/bin/Debug/net6.0/Heroes.deps.json
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/bin/Debug/net6.0/Heroes.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/bin/Debug/net6.0/Heroes.dll
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/bin/Debug/net6.0/Heroes.pdb
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.dll
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/ref/Heroes.dll
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.pdb
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/Heroes.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/bin/Debug/net6.0/Heroes
+/Users/radoslavbogdanov/Downloads/Retake Exam/Skeleton/Heroes/obj/Debug/net6.0/refint/Heroes.dll
