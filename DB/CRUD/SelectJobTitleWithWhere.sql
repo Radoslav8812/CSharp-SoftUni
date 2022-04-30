@@ -1,0 +1,1 @@
+SELECT * FROM Employees Where JobTitle = 'Sales Representative'
