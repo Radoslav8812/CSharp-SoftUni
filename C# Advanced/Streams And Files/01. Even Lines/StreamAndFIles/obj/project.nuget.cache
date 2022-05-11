@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "GIfktSoIbOt/jpIgDUG2uy+1Fc/c1tCchnYeg2WOukvHLKicTehvkgVC9zWRJ7/8cc8miW/NqO6vojnECr7qjw==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Steams And Files/StreamAndFIles/StreamAndFIles/StreamAndFIles.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.25/microsoft.netcore.app.host.osx-x64.3.1.25.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
