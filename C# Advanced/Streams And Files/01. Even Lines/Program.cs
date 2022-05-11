@@ -13,8 +13,17 @@ namespace StreamAndFIles
 
         private static void EvenLines()
         {
-        //    Create a program that reads a text file and prints on the console its even lines. Line numbers start from 0.Use StreamReader.Before you print the result replace { "-", ",", ".", "!", "?"}
-        //    with "@" and reverse the order of the words.
+            //Create a program that reads a text file and prints on the console its even lines. Line numbers start from 0.Use StreamReader.Before you print the result replace { "-", ",", ".", "!", "?"} with "@" and reverse the order of the words.
+
+//            text.txt
+//             -I was quick to judge him, but it wasn't his fault.
+//             - Is this some kind of joke?!Is it ?
+//              -Quick, hide here. It is safer.
+//
+              //Expect result:
+//              fault@ his wasn't it but him@ judge to quick was @I
+//              safer@ is It here@ hide @Quick@
+
 
             StreamReader streamReader = new StreamReader(@"/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Steams And Files/04. CSharp-Advanced-Streams-Files-and-Directories-Exercise-Resources/text.txt"); // get the required file path.
             //string result = streamReader.ReadToEnd(); // read whole lines of the input
