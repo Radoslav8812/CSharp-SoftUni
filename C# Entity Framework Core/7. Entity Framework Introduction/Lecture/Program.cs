@@ -21,6 +21,10 @@ namespace EFCoreInto
                     Console.WriteLine(firstEmployee[i]);
                     count++;
                 }
+                Console.WriteLine();
+                var checkQuery = context.Employees.Where(x => x.JobTitle.Contains("Tool Designer")).Select(x => x.FirstName + " " + x.LastName).ToQueryString();
+                Console.WriteLine(checkQuery);
+                Console.WriteLine();
             }
             Console.WriteLine(count);
         }
