@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{F8726788-F1D6-4C66-8ADD-D6BB48417A63}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/pm">
+    <Files>
+      <File FileName="Lecture/Program.cs" Line="16" Column="1" />
+      <File FileName="Infrastructure/Data/ApplicationDbContext.cs" Line="27" Column="1" />
+      <File FileName="Lecture/Models/SoftUniContext.cs" Line="36" Column="14" />
+      <File FileName="Lecture/Models/EmployeesProjects.cs" Line="15" Column="1" />
+      <File FileName="Lecture/Models/Employees.cs" Line="20" Column="46" />
+      <File FileName="Lecture/Models/Departments.cs" Line="1" Column="1" />
+      <File FileName="Lecture/Models/Addresses.cs" Line="1" Column="1" />
+      <File FileName="Lecture/Models/Projects.cs" Line="1" Column="1" />
+      <File FileName="Lecture/Models/Towns.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Data/Models/Person.cs" Line="10" Column="31" />
+      <File FileName="Infrastructure/Data/Models/Dog.cs" Line="7" Column="15" />
+      <File FileName="Infrastructure/pm" Line="7" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lecture" expanded="True">
+            <Node name="Infrastructure" expanded="True" />
+            <Node name="Lecture" expanded="True" selected="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Lecture PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
