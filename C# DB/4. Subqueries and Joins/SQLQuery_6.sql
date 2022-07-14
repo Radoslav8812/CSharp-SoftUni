@@ -32,3 +32,16 @@ FROM Employees AS [e]
 LEFT JOIN EmployeesProjects AS [ep] ON [e].EmployeeID = [ep].EmployeeID
 WHERE [ep].EmployeeID IS NULL
 ORDER BY [e].EmployeeID ASC
+
+--6. Employees Hired After
+SELECT [e].[FirstName], [e].[LastName], [e].[HireDate], [d].[Name]
+FROM [Employees] AS [e]
+JOIN [Departments] AS [d] ON [e].[DepartmentID] = [d].[DepartmentID]
+WHERE HireDate > '1.1.1999'AND [d].[Name] IN ('Sales', 'Finance')
+ORDER BY [e].[HireDate] ASC
+
+--7.	Employees with Project
+SELECT e.EmployeeID, e.FirstName, p.Name AS ProjectName
+FROM Employees AS e
+LEFT JOIN EmployeesProjects AS ep On e.EmployeeID = ep.EmployeeID
+LEFT JOIN Projects AS p ON ep.ProjectID = p.ProjectID ???
