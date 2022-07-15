@@ -1,0 +1,15 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/bin/Debug/net6.0/EntityRelationsHomework
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/bin/Debug/net6.0/EntityRelationsHomework.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/bin/Debug/net6.0/EntityRelationsHomework.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/bin/Debug/net6.0/EntityRelationsHomework.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/bin/Debug/net6.0/EntityRelationsHomework.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/refint/EntityRelationsHomework.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/EntityRelationsHomework.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/2. Entity Relations/Homework/EntityRelationsHomework/EntityRelationsHomework/obj/Debug/net6.0/ref/EntityRelationsHomework.dll
