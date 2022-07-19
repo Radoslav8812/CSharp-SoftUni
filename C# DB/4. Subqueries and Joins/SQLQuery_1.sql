@@ -91,7 +91,7 @@ ORDER BY p.[Elevation] DESC
 --13. Count Mountain Ranges
 SELECT mc.CountryCode, COUNT(CountryCode) AS MountainRanges
 FROM MountainsCountries AS mc
-WHERE CountryCode IN ('BG', 'US', 'RU')
+WHERE CountryCode IN ('BG', 'US', 'RU') 
 GROUP BY [CountryCode]
 
 --14. Countries with Rivers
@@ -103,3 +103,17 @@ WHERE c.ContinentCode = 'AF'
 ORDER BY c.CountryName ASC
 
 --15. *Continents and Currencies
+SELECT
+    ContinentCode,
+    CurrencyCode,
+    CurrencyUsage
+FROM(
+    SELECT 
+        ContinentCode,
+        CurrencyCode,
+        DENSE_RANK() OVER (PARTITION BY ContinentCode ORDER BY COUNT(*) DESC) AS Ranking,
+        COUNT(*) AS CurrencyUsage
+    FROM Countries
+    GROUP BY ContinentCode, CurrencyCode) AS RankedTable
+WHERE Ranking = 1 AND CurrencyUsage > 1
+ORDER BY ContinentCode, CurrencyCode
