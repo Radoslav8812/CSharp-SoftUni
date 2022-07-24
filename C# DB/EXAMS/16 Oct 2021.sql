@@ -1,0 +1,12 @@
+CREATE TABLE [Sizes] (
+    [Id] INT PRIMARY KEY IDENTITY,
+    [Length] INT NOT NULL CHECK ([Length] BETWEEN 10 AND 25),
+    [RingRange] DECIMAL (18,2) NOT NULL CHECK ([Length] BETWEEN 1.5 AND 7.5)
+)
+
+CREATE TABLE [Tastes](
+    [Id] INT PRIMARY KEY IDENTITY,
+    [TasteType] VARCHAR (20) NOT NULL,
+    [TasteStrength] VARCHAR(15) NOT NULL,
+    [ImageURL] NVARCHAR(100) Not NULL
+)
