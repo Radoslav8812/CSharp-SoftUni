@@ -1,0 +1,10 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/bin/Debug/netcoreapp3.1/BookShop.Models.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/bin/Debug/netcoreapp3.1/BookShop.Models.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/bin/Debug/netcoreapp3.1/BookShop.Models.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/obj/Debug/netcoreapp3.1/BookShop.Models.pdb

@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{5F132287-B09A-484F-8415-03291DBC53BC}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookShop/StartUp.cs">
+    <Files>
+      <File FileName="BookShop/StartUp.cs" Line="306" Column="80" />
+      <File FileName="BookShop.Models/Book.cs" Line="37" Column="1" />
+      <File FileName="BookShop.Models/BookCategory.cs" Line="12" Column="1" />
+      <File FileName="BookShop.Models/Category.cs" Line="16" Column="50" />
+      <File FileName="BookShop.Models/Enums/AgeRestriction.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Models/Enums/EditionType.cs" Line="3" Column="17" />
+      <File FileName="BookShop.Initializer/DbInitializer.cs" Line="30" Column="10" />
+      <File FileName="BookShop.Data/Configuration.cs" Line="7" Column="2" />
+      <File FileName="BookShop.Data/BookShopContext.cs" Line="19" Column="51" />
+      <File FileName="BookShop.Initializer/Generators/AuthorGenerator.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Initializer/Generators/BookGenerator.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Initializer/Generators/CategoryGenerator.cs" Line="35" Column="1" />
+      <File FileName="BookShop.Data/EntityConfiguration/AuthorConfiguration.cs" Line="24" Column="1" />
+      <File FileName="BookShop.Data/EntityConfiguration/BookCategoryConfiguration.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Data/EntityConfiguration/BookConfiguration.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Data/EntityConfiguration/CategoryConfiguration.cs" Line="1" Column="1" />
+      <File FileName="BookShop.Models/Author.cs" Line="20" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookShop" expanded="True">
+            <Node name="BookShop" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="BookShop.Data" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="BookShop.Initializer" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="BookShop.Models" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Enums" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.BookShop PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

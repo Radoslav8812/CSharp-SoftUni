@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "z/IqPAq36KFUkZWuN/8b6n2icGXZB4y+K9cgsnbt1Ad99wyoOUQVWUwwpDvmQtUycYs5Q9PUBID++Pm/yZI5bA==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Models/BookShop.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

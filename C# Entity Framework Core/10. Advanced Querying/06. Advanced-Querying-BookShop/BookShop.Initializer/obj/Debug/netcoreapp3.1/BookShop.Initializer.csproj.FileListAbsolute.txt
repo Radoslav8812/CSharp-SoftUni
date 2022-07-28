@@ -1,0 +1,15 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Initializer.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Initializer.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Initializer.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Data.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Models.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Data.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/bin/Debug/netcoreapp3.1/BookShop.Models.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.csproj.CopyComplete
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/4. Advanced Querying/06. Advanced-Querying-BookShop/BookShop.Initializer/obj/Debug/netcoreapp3.1/BookShop.Initializer.pdb
