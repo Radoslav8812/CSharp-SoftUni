@@ -126,3 +126,39 @@ JOIN Cigars cig On cc.CigarId = cig.Id
 JOIN Sizes sz ON cig.SizeId = sz.Id
 GROUP BY c.LastName
 ORDER BY CiagrLength DESC
+
+GO
+
+--11.	Client with Cigars
+CREATE OR ALTER FUNCTION udf_ClientWithCigars(@name NVARCHAR(30))
+RETURNS INT AS
+BEGIN
+    DECLARE @cigarCount INT;
+        SET @cigarCount = (SELECT COUNT(*) FROM ClientsCigars
+        WHERE ClientId IN (SELECT Id FROM Clients WHERE FirstName = @name));
+    RETURN @cigarCount;
+END
+
+SELECT dbo.udf_ClientWithCigars('Betty')
+
+GO
+--12.	Search for Cigar with Specific Taste
+CREATE OR ALTER PROCEDURE usp_SearchByTaste(@taste VARCHAR(20))
+AS
+BEGIN
+SELECT
+    CigarName,
+    CONCAT('$', c.PriceForSingleCigar) AS Price,
+    TasteType,
+    b.BrandName,
+    CONCAT(s.Length, ' ', 'cm') AS CigarLength,
+    CONCAT(s.RingRange, ' ', 'cm') AS CigarRingRange
+FROM Cigars AS c
+JOIN Tastes AS t ON c.TastId = t.id
+JOIN Sizes AS s ON c.SizeId = s.Id
+Join Brands AS b ON c.BrandId = b.Id
+WHERE t.TasteType = @taste
+ORDER BY CigarLength ASC, RingRange DESC
+END
+
+EXEC usp_SearchByTaste 'Woody'
