@@ -1,7 +1,3 @@
-CREATE DATABASE Bitbucket
-GO
-
-
 --Section 1. DDL (30 pts)
 CREATE TABLE Users(
     Id INT PRIMARY KEY IDENTITY,
@@ -137,16 +133,44 @@ JOIN Files AS f ON c.Id = f.CommitId
 GROUP BY u.Username
 ORDER BY Size DESC, u.Username ASC
 
-
+GO
 
 --11
-CREATE OR ALTER FUNCTION udf_AllUserCommits(@username VARCHAR(30))
+CREATE FUNCTION udf_AllUserCommits(@username VARCHAR(30))
 RETURNS INT
 AS
 BEGIN
+    DECLARE @UserId INT = 
+        (SELECT
+        Id
+        FROM Users
+        WHERE UserName = @username)
+    
+    DECLARE @Commits INT =
+    (
+        SELECT COUNT(Id)
+        FROM Commits
+        WHERE ContributorId = @UserId
+    )
+    RETURN @Commits
+END
 
+SELECT dbo.udf_AllUserCommits('UnderSinduxrein')
 
+GO
 
-SELECT * FROM Commits
-SELECT * FROM Repositories
-SELECT * FROM Files
+CREATE PROCEDURE usp_SearchForFiles(@fileExtension VARCHAR(98))
+AS
+BEGIN
+    SELECT
+        Id,
+        [Name],
+        CONCAT(Size, 'KB') AS [Size]
+        FROM Files
+        WHERE [Name] LIKE CONCAT('%[.]', @fileExtension)
+        ORDER BY Id ASC, [Name] ASC, [Size] DESC
+END
+
+    EXEC usp_SearchForFiles 'txt'
+
+GO
