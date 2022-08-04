@@ -13,7 +13,6 @@
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
     <None Remove="Microsoft.Extensions.DependencyInjection" />
     <None Remove="DTOs\" />
-    <None Remove="DTOs\User\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.3" />
@@ -25,6 +24,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\" />
-    <Folder Include="DTOs\User\" />
   </ItemGroup>
 </Project>

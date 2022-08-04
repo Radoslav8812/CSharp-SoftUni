@@ -18,8 +18,6 @@ namespace ProductShop.DTOs.User
 
         [JsonProperty("age")]
         public int? Age { get; set; }
-
-
     }
 }
 
