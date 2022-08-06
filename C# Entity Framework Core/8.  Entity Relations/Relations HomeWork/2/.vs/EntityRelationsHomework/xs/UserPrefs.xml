@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{9AE1E580-C3BC-47A6-A099-A4CA4838CFF8}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FootballBetting PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../03. Football Betting/FootballBetting.Data/Config.cs">
+    <Files>
+      <File FileName="FootballBetting.Data.Models/User.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Town.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Team.cs" Line="36" Column="44" />
+      <File FileName="FootballBetting.Data.Models/Color.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Bet.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Country.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Game.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Player.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/PlayerStatistic.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Position.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Models/Enums/Prediction.cs" Line="1" Column="1" />
+      <File FileName="FootballBetting.Data.Common/GlobalConstants.cs" Line="35" Column="1" />
+      <File FileName="FootballBetting.Data/Config.cs" Line="15" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EntityRelationsHomework" expanded="True" selected="True">
+            <Node name="FootballBetting" expanded="True" />
+            <Node name="FootballBetting.Data" expanded="True" />
+            <Node name="FootballBetting.Data.Common" expanded="True" />
+            <Node name="FootballBetting.Data.Models" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
