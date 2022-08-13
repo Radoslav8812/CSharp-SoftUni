@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Coaches>
+  <Coach FootballersCount="5">
+    <CoachName>Pep Guardiola</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Bernardo Silva</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Ederson</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Ilkay Gundogan</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Kevin De Bruyne</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Phil Foden</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="4">
+    <CoachName>Mauricio Pochettino</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Keylor Navas</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Lionel Messi</Name>
+        <Position>Defender</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Marco Verratti</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Neymar</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="3">
+    <CoachName>Antonio Conte</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Harry Kane</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Hugo Lloris</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Son Heung-Min</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="3">
+    <CoachName>Jurgen Klopp</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Alisson</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Andrew Robertson</Name>
+        <Position>Defender</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Sadio Mane</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="3">
+    <CoachName>Peter Bosz</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Lucas Paqueta</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Moussa Dembele</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Romain Faivre</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="2">
+    <CoachName>Bruno Genesio</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Benjamin Bourigeaud</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Martin Terrier</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="2">
+    <CoachName>Carlo Ancelotti</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Karim Benzema</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Thibaut Courtois</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="2">
+    <CoachName>Edin Terzic</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Erling Haland</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Marco Reus</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="2">
+    <CoachName>Massimiliano Allegri</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Dusan Vlahovic</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+      <FootballerOfCoachOutputModel>
+        <Name>Wojiech Szczesny</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Christian Streich</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Nico Schlotterbeck</Name>
+        <Position>Defender</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Diego Simeone</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Jan Oblak</Name>
+        <Position>Goalkeeper</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Eddie Howe</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Bruno Guimaraes</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Gerald Baticle</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Sofiane Boufal</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Gerardo Seoane</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Patrik Schick</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Ivan Juric</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Bremer</Name>
+        <Position>Defender</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Jose Luis Mendilibar</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Joselu</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Jose Mourinho</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Lorenzo Pellegrini</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Olivier DallOglio</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Teji Savanier</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Philippe Clement</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Aurelien Tchouameni</Name>
+        <Position>Midfielder</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Thomas Frank</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Ivan Toney</Name>
+        <Position>Forward</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+  <Coach FootballersCount="1">
+    <CoachName>Thomas Tuchel</CoachName>
+    <Footballers>
+      <FootballerOfCoachOutputModel>
+        <Name>Reece James</Name>
+        <Position>Defender</Position>
+      </FootballerOfCoachOutputModel>
+    </Footballers>
+  </Coach>
+</Coaches>

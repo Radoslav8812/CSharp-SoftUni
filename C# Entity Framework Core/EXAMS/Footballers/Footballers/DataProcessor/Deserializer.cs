@@ -1,61 +1,33 @@
-USE master;
-GO
+﻿namespace Footballers.DataProcessor
+{
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Globalization;
+    using System.IO;
+    using System.Linq;
+    using System.Text;
+    using System.Xml.Serialization;
+    using AutoMapper;
+    using Data;
+    using Footballers.Data.Models;
+    using Footballers.Data.Models.Enums;
+    using Footballers.DataProcessor.ImportDto;
+    using Newtonsoft.Json;
+    using ValidationContext = System.ComponentModel.DataAnnotations.ValidationContext;
 
-ALTER DATABASE SoftUni SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-GO
-DROP DATABASE SoftUni;
-GO
+    public class Deserializer
+    {
+        private const string ErrorMessage = "Invalid data!";
 
-StringBuilder sb = new StringBuilder();
+        private const string SuccessfullyImportedCoach
+            = "Successfully imported coach - {0} with {1} footballers.";
 
-           
-            ImportTheatresWithTicketsDto[] ticketsDtos =
-                JsonConvert.DeserializeObject<ImportTheatresWithTicketsDto[]>(jsonString);
+        private const string SuccessfullyImportedTeam
+            = "Successfully imported team - {0} with {1} footballers.";
 
-            ICollection<Theatre> validTheatres = new List<Theatre>();
-
-            foreach (var tDto in ticketsDtos)
-            {
-                if (!IsValid(tDto))
-                {
-                    sb.AppendLine(ErrorMessage);
-                    continue;
-                }
-
-                Theatre theatre = new Theatre()
-                {
-                    Name = tDto.Name,
-                    NumberOfHalls = tDto.NumberOfHalls,
-                    Director = tDto.Director,
-                };
-
-                foreach (var dto in tDto.Tickets)
-                {
-                    if (!IsValid(dto))
-                    {
-                        sb.AppendLine(ErrorMessage);
-                        continue;
-                    }
-
-                    Ticket ticket = new Ticket()
-                    {
-                        Price = dto.Price,
-                        RowNumber = dto.RowNumber,
-                        PlayId = dto.PlayId
-                    };
-
-                    theatre.Tickets.Add(ticket);
-                }
-
-                validTheatres.Add(theatre);
-                sb.AppendLine(String.Format(SuccessfulImportTheatre, theatre.Name, theatre.Tickets.Count));
-            }
-
-            context.Theatres.AddRange(validTheatres);
-            context.SaveChanges();
-
-            return sb.ToString().TrimEnd();
-
+        public static string ImportCoaches(FootballersContext context, string xmlString)
+        {
             XmlRootAttribute xmlRootAttribute = new XmlRootAttribute("Coaches");
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(CoachWithFootballersInputModel[]), xmlRootAttribute);
 
@@ -68,7 +40,7 @@ StringBuilder sb = new StringBuilder();
 
             foreach (CoachWithFootballersInputModel dtoCoach in dtoCoaches)
             {
-                if (!IsValid(dtoCoach) || String.IsNullOrEmpty(dtoCoach.Nationality) || DateTime.TryParse(dtoCoach.Nationality, out DateTime dt) == true)
+                if (!IsValid(dtoCoach))
                 {
                     sb.AppendLine(ErrorMessage);
                     continue;
@@ -110,11 +82,11 @@ StringBuilder sb = new StringBuilder();
 
                     Footballer newFootballer = new Footballer()
                     {
-                       Name = dtoFootballer.Name,
-                       ContractStartDate = DateTime.ParseExact(dtoFootballer.ContractStartDate, "dd/MM/yyyy", CultureInfo.InvariantCulture),
-                       ContractEndDate = DateTime.ParseExact(dtoFootballer.ContractEndDate, "dd/MM/yyyy", CultureInfo.InvariantCulture),
-                       BestSkillType = Enum.Parse<BestSkillType>(dtoFootballer.BestSkillType),
-                       PositionType = Enum.Parse<PositionType>(dtoFootballer.PositionType)
+                        Name = dtoFootballer.Name,
+                        ContractStartDate = DateTime.ParseExact(dtoFootballer.ContractStartDate, "dd/MM/yyyy", CultureInfo.InvariantCulture),
+                        ContractEndDate = DateTime.ParseExact(dtoFootballer.ContractEndDate, "dd/MM/yyyy", CultureInfo.InvariantCulture),
+                        BestSkillType = Enum.Parse<BestSkillType>(dtoFootballer.BestSkillType),
+                        PositionType = Enum.Parse<PositionType>(dtoFootballer.PositionType)
                     };
 
                     validFootballers.Add(newFootballer);
@@ -129,12 +101,14 @@ StringBuilder sb = new StringBuilder();
 
             return sb.ToString().TrimEnd();
         }
+
+
+
         public static string ImportTeams(FootballersContext context, string jsonString)
         {
             TeamInputModel[] dtoTeams = JsonConvert.DeserializeObject<TeamInputModel[]>(jsonString);
 
             StringBuilder sb = new StringBuilder();
-
             List<Team> validTeams = new List<Team>();
 
             foreach (TeamInputModel dtoTeam in dtoTeams)
@@ -145,24 +119,14 @@ StringBuilder sb = new StringBuilder();
                     continue;
                 }
 
-                //Team newTeam = new Team
-                //{
-                //    Name = dtoTeam.Name,
-                //    Nationality = dtoTeam.Nationality,
-                //    Trophies = dtoTeam.Trophies
-                //};
-
-                //With AutoMapper
-
-                //Team newTeam = Mapper.Map<Team>(dtoTeam);
-
-                InitializeAutoMapper();
-                Team newTeam = mapper.Map<Team>(dtoTeam);
-
+                Team newTeam = new Team
+                {
+                    Name = dtoTeam.Name,
+                    Nationality = dtoTeam.Nationality,
+                    Trophies = dtoTeam.Trophies
+                };
 
                 List<int> validFootballersIds = context.Footballers.Select(f => f.Id).ToList();
-              
-
                 foreach (int dtoFootballerId in dtoTeam.Footballers.Distinct())
                 {
                     if (!validFootballersIds.Contains(dtoFootballerId))
@@ -174,34 +138,25 @@ StringBuilder sb = new StringBuilder();
                     newTeam.TeamsFootballers.Add(new TeamFootballer
                     {
                         FootballerId = dtoFootballerId,
-                       Team = newTeam
+                        Team = newTeam
                     });
-
-                    //With AutoMappe
-
-                    Footballer footballer = context.Footballers.Find(dtoFootballerId);
-
-                    if (footballer == null)
-                    {
-                        sb.AppendLine(ErrorMessage);
-                        continue;
-                    }
-
-
-                    //TeamFootballer teamFootballer = Mapper.Map<TeamFootballer>(footballer);
-
-                    TeamFootballer teamFootballer = mapper.Map<TeamFootballer>(footballer);
-                    teamFootballer.Team = newTeam;
-
-                    newTeam.TeamsFootballers.Add(teamFootballer);
                 }
 
                 validTeams.Add(newTeam);
                 sb.AppendLine(String.Format(SuccessfullyImportedTeam, newTeam.Name, newTeam.TeamsFootballers.Count));
-
             }
+
             context.AddRange(validTeams);
             context.SaveChanges();
-
             return sb.ToString().TrimEnd();
         }
+
+        private static bool IsValid(object dto)
+        {
+            var validationContext = new ValidationContext(dto);
+            var validationResult = new List<ValidationResult>();
+             
+            return Validator.TryValidateObject(dto, validationContext, validationResult, true);
+        }
+    }
+}
