@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Guns>
+  <Gun Manufacturer="Krupp" GunType="AntiAircraftGun" GunWEight="1280923" BarrelLength="10.89" Range="16530">
+    <Countries>
+      <CountryOutputModel Country="Albania" ArmySize="6296389" />
+      <CountryOutputModel Country="United Kingdom" ArmySize="7242451" />
+      <CountryOutputModel Country="China" ArmySize="9944746" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="Howitzer" GunWEight="656499" BarrelLength="13.04" Range="80235">
+    <Countries>
+      <CountryOutputModel Country="Malta" ArmySize="8507869" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="FieldGun" GunWEight="431716" BarrelLength="15.7" Range="28309">
+    <Countries>
+      <CountryOutputModel Country="Cape Verde" ArmySize="7704194" />
+      <CountryOutputModel Country="Equatorial Guinea" ArmySize="9751317" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="Mortar" GunWEight="388420" BarrelLength="15.87" Range="6288">
+    <Countries>
+      <CountryOutputModel Country="Norway" ArmySize="6282380" />
+      <CountryOutputModel Country="Myanmar" ArmySize="9883310" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="AntiTankGun" GunWEight="696072" BarrelLength="18.71" Range="15564">
+    <Countries>
+      <CountryOutputModel Country="Congo (Congo-Brazzaville)" ArmySize="4538483" />
+      <CountryOutputModel Country="Bahrain" ArmySize="6356846" />
+      <CountryOutputModel Country="Belgium" ArmySize="6632639" />
+      <CountryOutputModel Country="Japan" ArmySize="8735730" />
+      <CountryOutputModel Country="Guinea-Bissau" ArmySize="9316866" />
+      <CountryOutputModel Country="Equatorial Guinea" ArmySize="9751317" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="AntiAircraftGun" GunWEight="423195" BarrelLength="21.59" Range="84300">
+    <Countries>
+      <CountryOutputModel Country="Laos" ArmySize="4699836" />
+      <CountryOutputModel Country="Cameroon" ArmySize="8974691" />
+      <CountryOutputModel Country="Liechtenstein" ArmySize="9813470" />
+      <CountryOutputModel Country="Costa Rica" ArmySize="9992807" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="AntiTankGun" GunWEight="801684" BarrelLength="31.18" Range="19118">
+    <Countries>
+      <CountryOutputModel Country="Laos" ArmySize="4699836" />
+      <CountryOutputModel Country="Chile" ArmySize="6320941" />
+      <CountryOutputModel Country="Bahrain" ArmySize="6356846" />
+      <CountryOutputModel Country="Colombia" ArmySize="6406948" />
+      <CountryOutputModel Country="Philippines" ArmySize="6632041" />
+      <CountryOutputModel Country="Gabon" ArmySize="6754609" />
+      <CountryOutputModel Country="Czech Republic" ArmySize="7339547" />
+      <CountryOutputModel Country="Ukraine" ArmySize="7786236" />
+      <CountryOutputModel Country="Malta" ArmySize="8507869" />
+      <CountryOutputModel Country="Bolivia" ArmySize="9175730" />
+      <CountryOutputModel Country="Portugal" ArmySize="9523599" />
+      <CountryOutputModel Country="Myanmar" ArmySize="9883310" />
+    </Countries>
+  </Gun>
+  <Gun Manufacturer="Krupp" GunType="Mortar" GunWEight="1291272" BarrelLength="8.31" Range="14258">
+    <Countries>
+      <CountryOutputModel Country="Sweden" ArmySize="5437337" />
+      <CountryOutputModel Country="Portugal" ArmySize="9523599" />
+    </Countries>
+  </Gun>
+</Guns>
