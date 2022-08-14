@@ -68,7 +68,31 @@
 
         public static string ExportMostBusiestEmployees(TeisterMaskContext context, DateTime date)
         {
-            throw new NotImplementedException();
+            var dtoEmployees = context.Employees
+                .Where(x => x.EmployeesTasks.Any(x => x.Task.OpenDate >= date))
+                .ToList() // Select the top 10 employees who have at least one task that its open date is after or equal to the given date with their tasks that meet the same requirement (to have their open date after or equal to the giver date). 
+                .Select(x => new //For each employee, export their username and their tasks. 
+                {
+                    Username = x.Username,
+                    Tasks = x.EmployeesTasks.Where(x => x.Task.OpenDate >= date)
+                    .OrderByDescending(x => x.Task.DueDate) //Order the tasks by due date (descending), then by name (ascending).
+                    .ThenBy(x => x.Task.Name)
+                    .Select(x => new //For each task, export its name and open date (must be in format "d"), due date (must be in format "d"), label and execution type. 
+                    {
+                        TaskName = x.Task.Name,
+                        OpenDate = x.Task.OpenDate.ToString("d", CultureInfo.InvariantCulture),
+                        DueDate = x.Task.DueDate.ToString("d", CultureInfo.InvariantCulture),
+                        LabelType = x.Task.LabelType.ToString(),
+                        ExecutionType = x.Task.ExecutionType.ToString()
+                    })
+                    .ToList()
+                })
+                .OrderByDescending(x => x.Tasks.Count) // Order the employees by all tasks (meeting above condition) count (descending), then by username (ascending).
+                .ThenBy(x => x.Username)
+                .Take(10)
+                .ToList();
+
+            return JsonConvert.SerializeObject(dtoEmployees, Formatting.Indented);
         }
     }
 }
