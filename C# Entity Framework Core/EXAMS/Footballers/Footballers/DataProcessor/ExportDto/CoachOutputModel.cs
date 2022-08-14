@@ -17,6 +17,7 @@ namespace Footballers.DataProcessor.ExportDto
 		public FootballerOfCoachOutputModel[] Footballers { get; set; }
 	}
 
+	[XmlType("Footballer")]
 	public class FootballerOfCoachOutputModel
 	{
 		[XmlElement("Name")]

@@ -15,39 +15,22 @@
     {
         public static string ExportCoachesWithTheirFootballers(FootballersContext context)
         {
-            //var dtoCoaches = context.Coaches
-            //    .ToArray()
-            //    .Where(x => x.Footballers.Any())
-            //    .Select(x => new CoachOutputModel
-            //    {
-            //        CoachName = x.Name,
-            //        FootballersCount = x.Footballers.Count,
-            //        Footballers = x.Footballers
-            //        .Select(x => new FootballerOfCoachOutputModel
-            //        {
-            //            Name = x.Name,
-            //            PositionType = x.PositionType.ToString()
-            //        })
-            //        .OrderBy(x => x.Name)
-            //        .ToArray()
-            //    })
-            //    .OrderByDescending(x => x.FootballersCount)
-            //    .ThenBy(x => x.CoachName)
-            //    .ToArray();
-
-            CoachOutputModel[] dtoCoaches = context.Coaches.ToArray().Where(x => x.Footballers.Any())
-               .Select(x => new CoachOutputModel
-               {
-                   FootballersCount = x.Footballers.Count,
-                   CoachName = x.Name,
-                   Footballers = x.Footballers.Select(f => new FootballerOfCoachOutputModel
-                   {
-                       Name = f.Name,
-                       PositionType = f.PositionType.ToString()
-                   })
+            var dtoCoaches = context.Coaches
+                .ToArray()
+                .Where(x => x.Footballers.Count > 0)
+                .Select(x => new CoachOutputModel
+                {
+                    CoachName = x.Name,
+                    FootballersCount = x.Footballers.Count,
+                    Footballers = x.Footballers
+                    .Select(x => new FootballerOfCoachOutputModel
+                    {
+                        Name = x.Name,
+                        PositionType = x.PositionType.ToString()
+                    })
                     .OrderBy(x => x.Name)
                     .ToArray()
-               })
+                })
                 .OrderByDescending(x => x.FootballersCount)
                 .ThenBy(x => x.CoachName)
                 .ToArray();
