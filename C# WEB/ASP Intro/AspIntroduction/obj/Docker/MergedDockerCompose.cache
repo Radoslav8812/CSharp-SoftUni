@@ -1,0 +1,16 @@
+services:
+  aspintroduction:
+    build:
+      context: /Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# WEB/ASP.NET Introduction/AspIntroduction
+      dockerfile: AspIntroduction/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: aspintroduction
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/radoslavbogdanov/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/radoslavbogdanov/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

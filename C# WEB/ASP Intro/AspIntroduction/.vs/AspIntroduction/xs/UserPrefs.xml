@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0A9FB862-4368-47F6-88DB-7459D1A858C8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspIntroduction/Program.cs">
+    <Files>
+      <File FileName="AspIntroduction/Program.cs" Line="33" Column="18" />
+      <File FileName="AspIntroduction/Controllers/HomeController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AspIntroduction" expanded="True">
+            <Node name="AspIntroduction" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AspIntroduction PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+</Properties>
