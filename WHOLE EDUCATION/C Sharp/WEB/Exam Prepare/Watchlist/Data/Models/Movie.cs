@@ -21,13 +21,13 @@ namespace Watchlist.Data.Models
 		public string ImageUrl { get; set; }
 
 		[Required]
-		[Range(typeof(decimal), "0.00", "10.00")]
-		public decimal Rating { get; set; }
+        [Range(typeof(decimal), "0,00", "10,00")]
+        public decimal Rating { get; set; }
 
-		public int GenreId { get; set; }
+		public int? GenreId { get; set; }
 
 		[ForeignKey(nameof(GenreId))]
-		public Genre Genre { get; set; }
+		public Genre? Genre { get; set; }
 
 		public List<UserMovie> UsersMovies { get; set; } = new List<UserMovie>();
 

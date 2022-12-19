@@ -6,14 +6,12 @@ namespace Watchlist.Data
 {
     public class WatchlistDbContext : IdentityDbContext<User>
     {
-        public WatchlistDbContext(DbContextOptions<WatchlistDbContext> options)
-            : base(options)
+        public WatchlistDbContext(DbContextOptions<WatchlistDbContext> options) : base(options)
         {
         }
 
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Genre> Genres { get; set; }
-
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -25,14 +23,14 @@ namespace Watchlist.Data
                 });
 
             builder.Entity<User>()
-            .Property(x => x.UserName)
-            .HasMaxLength(20)
-            .IsRequired();
+             .Property(p => p.UserName)
+             .HasMaxLength(20)
+             .IsRequired();
 
             builder.Entity<User>()
-            .Property(x => x.Email)
-            .HasMaxLength(60)
-            .IsRequired();
+             .Property(p => p.Email)
+             .HasMaxLength(60)
+             .IsRequired();
 
             builder
                  .Entity<Genre>()

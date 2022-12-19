@@ -14,7 +14,6 @@ namespace Watchlist.Data.Models
         [ForeignKey(nameof(Movie))]
         [Required]
         public int MovieId { get; set; }
-
         public Movie Movie { get; set; } = null!;
 
     }

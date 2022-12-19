@@ -33,8 +33,12 @@ namespace Watchlist.Controllers
         [AllowAnonymous]
         public IActionResult Register()
         {
-            var model = new RegisterViewModel();
+            if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                return RedirectToAction("All", "Movies");
+            }
 
+            var model = new RegisterViewModel();
             return View(model);
         }
 
@@ -58,9 +62,7 @@ namespace Watchlist.Controllers
 
             if (result.Succeeded)
             {
-                await signInManager.SignInAsync(user, isPersistent: false);
-
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "User");
             }
 
             foreach (var item in result.Errors)
@@ -75,8 +77,12 @@ namespace Watchlist.Controllers
         [AllowAnonymous]
         public IActionResult Login()
         {
-            var model = new LoginViewModel();
+            if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                return RedirectToAction("All", "Movies");
+            }
 
+            var model = new LoginViewModel();
             return View(model);
         }
 
@@ -98,7 +104,7 @@ namespace Watchlist.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("All", "Movies");
                 }
             }
 
