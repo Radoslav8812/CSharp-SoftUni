@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{A8F750CC-753A-4181-999D-721F1C40C23D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Contacts/Services/ContactService.cs">
+    <Files>
+      <File FileName="Contacts/Data/Models/ApplicationUser.cs" />
+      <File FileName="Contacts/Data/Models/Contact.cs" />
+      <File FileName="Contacts/Data/Models/ApplicationUserContact.cs" />
+      <File FileName="Contacts/Data/ContactsDbContext.cs" Line="33" Column="1" />
+      <File FileName="Contacts/Program.cs" />
+      <File FileName="Contacts/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="Contacts/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Contacts/Views/Shared/_Layout.cshtml" />
+      <File FileName="Contacts/Views/Contacts/Add.cshtml" />
+      <File FileName="Contacts/Views/Contacts/Edit.cshtml" Line="36" Column="19" />
+      <File FileName="Contacts/Views/Contacts/Team.cshtml" Line="1" Column="1" />
+      <File FileName="Contacts/appsettings.json" Line="13" Column="2" />
+      <File FileName="Contacts/Data/Migrations/20221221080953_InitialMigration.cs" />
+      <File FileName="Contacts/Views/User/Login.cshtml" Line="31" Column="7" />
+      <File FileName="Contacts/Models/LoginViewModel.cs" />
+      <File FileName="Contacts/Views/_ViewStart.cshtml" />
+      <File FileName="Contacts/Views/_ViewImports.cshtml" />
+      <File FileName="Contacts/Views/User/Register.cshtml" Line="46" Column="1" />
+      <File FileName="Contacts/Models/RegisterViewModel.cs" />
+      <File FileName="Contacts/Controllers/HomeController.cs" />
+      <File FileName="Contacts/Controllers/UserController.cs" />
+      <File FileName="Contacts/Controllers/ContactsController.cs" />
+      <File FileName="Contacts/Views/Contacts/All.cshtml" Line="38" Column="48" />
+      <File FileName="Contacts/Models/ContactViewModel.cs" />
+      <File FileName="Contacts/Services/Contracts/IContactService.cs" />
+      <File FileName="Contacts/Views/Shared/Error.cshtml" />
+      <File FileName="Contacts/Models/ErrorViewModel.cs" />
+      <File FileName="Contacts/Data/Migrations/ApplicationDbContextModelSnapshot.cs" />
+      <File FileName="Contacts/Services/ContactService.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Contacts" expanded="True">
+            <Node name="Contacts" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Migrations" expanded="True" />
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="ContactService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Contacts" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+                <Node name="User" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Contacts PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
