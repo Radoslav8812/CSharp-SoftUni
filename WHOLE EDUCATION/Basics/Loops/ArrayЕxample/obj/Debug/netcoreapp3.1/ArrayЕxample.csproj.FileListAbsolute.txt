@@ -1,0 +1,14 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample.runtimeconfig.dev.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/bin/Debug/netcoreapp3.1/ArrayЕxample.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/obj/Debug/netcoreapp3.1/ArrayЕxample.genruntimeconfig.cache

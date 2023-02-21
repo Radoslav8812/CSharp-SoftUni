@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q0f2bBBh00m+JN17NZcmx4GMc3vLfm6evASLD6F6EkhWHYCs70NsHxM+6T+l99p6qezbM5t8SRf5DPw6nhSxTA==",
+  "success": true,
+  "projectFilePath": "/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Projects/Arrays/Arrays/ArrayЕxample/ArrayЕxample.csproj",
+  "expectedPackageFiles": [
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512",
+    "/Users/radoslavbogdanov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
