@@ -1,0 +1,58 @@
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/EFC Code First
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/EFC Code First.deps.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/EFC Code First.runtimeconfig.json
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/EFC Code First.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/EFC Code First.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Humanizer.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.csproj.AssemblyReference.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.GeneratedMSBuildEditorConfig.editorconfig
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.AssemblyInfoInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.AssemblyInfo.cs
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.csproj.CoreCompileInputs.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.csproj.CopyComplete
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/refint/EFC Code First.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.pdb
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/EFC Code First.genruntimeconfig.cache
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/obj/Debug/net6.0/ref/EFC Code First.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/radoslavbogdanov/Downloads/DEVELOPMENT/C# Entity FrameWork Core/EF Core Lecture/EFC Code First/EFC Code First/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
