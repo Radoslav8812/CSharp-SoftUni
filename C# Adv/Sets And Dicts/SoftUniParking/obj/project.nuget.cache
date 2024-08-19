@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8BG+5aEgzX22L0wmpAhWYIMACZYA04gNA5AlMw6nHV4ALZfRXOtHi9DADX5Xqgp4bs77hYEB8Cg9g7dPFxHNdA==",
+  "success": true,
+  "projectFilePath": "/Users/test/Projects/SoftUniParking/SoftUniParking/SoftUniParking.csproj",
+  "expectedPackageFiles": [
+    "/Users/test/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/test/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.31/microsoft.netcore.app.host.osx-x64.6.0.31.nupkg.sha512",
+    "/Users/test/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
